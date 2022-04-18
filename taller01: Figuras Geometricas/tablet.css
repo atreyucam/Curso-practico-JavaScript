@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6,auto);
+    background-color: #f6f6f7;
+    justify-items: center;
+}
+button{
+    margin-top: 15px;
+}
+.title-main{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    align-self: center;
+}
+.style-card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid rgb(179, 177, 177);
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:  1px 2px 5px rgba(174, 180, 185, 1);;
+
+}
+.cuadrado-card{
+    height: 90%;
+    justify-content: center;
+}
+.triangulo-card{
+    grid-column: 2/4;
+    grid-row: 4/6;
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+}
+.circunferencia-card{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    justify-content: center;
+    height: 90%;
+}
+footer{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    height: 56px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(8,auto);
+    background-color: #f6f6f7;
+    justify-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    height: 24px;
+    padding-left: 8px;
+    margin: 8px 8px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+form label{
+    font-size: 1.5rem;
+    text-align: center;
+}
+button{
+    height: 22px;
+    width: 150px;
+    margin-top: 8px;
+    background-color: #008060;
+    color: white;
+    font-weight: 100;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 1.18rem;
+}
+button:active{
+    background-color: #03c091;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.title-main{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    margin: 15px;
+    font-size: 2.4rem;
+    width: 100%;
+}
+.style-card{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid rgb(179, 177, 177);
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:  1px 2px 5px rgba(174, 180, 185, 1);;
+
+}
+.style-card h2{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 2.0rem;
+}
+.style-card p{
+    margin-bottom: 4px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+/* cards style */
+.cuadrado-card{
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.triangulo-card{
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+.circunferencia-card{
+    grid-column: 2/3;
+    grid-row: 6/8;
+}
+footer{
+    grid-column: 2/3;
+    grid-row: 8/9;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+footer p{
+    padding-bottom: 5px;
+}
+.byAtreyu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-footer{
+    width: 20px;
+    height: 20px;
+    background-image: url("https://www.returngis.net/wp-content/uploads/2021/01/GitHub.png");
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2px;
+}
