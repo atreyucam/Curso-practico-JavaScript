@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial;
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
+header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: center;
+  text-align: center;
+  font-size: 1.8rem;
+  color: brown;
+}
+main {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.6rem;
+    color: purple;
+    font-weight: 700;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 20px;
+  box-shadow: 1px 1px 9px;
+  align-items: center;
+}
+form label {
+  font-size: 1.4rem;
+
+}
+form input {
+  margin: 8px 15px;
+  width: 18rem;
+  padding-left: 5px;
+}
+form button {
+  width: 75%;
+  align-self: center;
+  margin: 14px 0;
+  background-color: rgb(154, 109, 196);
+  color: whitesmoke;
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+button:active{
+    background-color: purple;
+}
+p{
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px;
+    width: 70%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px auto;
+    padding: 10px;
+}
